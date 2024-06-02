@@ -1,0 +1,11 @@
+#include <xc.h>
+
+void main(void) {
+    unsigned int i;
+    int arr1[5]={0,2,4,6,8};
+    int arr2[5]={};
+    for(i=0;i<5;i++){
+        arr2[i]=arr1[i];
+    }
+    return;
+}
